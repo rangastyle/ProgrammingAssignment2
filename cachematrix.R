@@ -34,6 +34,8 @@ if (!is.null()){
 message ("getting cached data")
 }
 data<-x$get()
+x<-solve(data,...)
+
 x$setinverse(inv)
 
 
